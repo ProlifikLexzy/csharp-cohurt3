@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace Learning.Csharp
+
+//This is a type of class and
+//the name of the class is Program
+class Program // class head
 {
-    internal class Program
+    //modifier return-type Identifer()
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("Hello World!");
     }
+
 }
+
